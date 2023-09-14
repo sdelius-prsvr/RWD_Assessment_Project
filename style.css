@@ -20,13 +20,25 @@
 html {
     padding: 0;
     margin: 0;
-    font-size: 10px
+    font-size: 10px;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'kingthings_calligraphica_2Rg';
+}
+
+h1, h2, h3 {
+    font-family: 'chomsky';
+}
+
+.chomsky {
+    font-family: 'chomsky';
 }
 
 .kingthings {
     font-family: 'kingthings_calligraphica_2Rg';
 }
 
-.chomsky {
-    font-family: 'chomsky'
-}
+
+
