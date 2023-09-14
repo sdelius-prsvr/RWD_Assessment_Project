@@ -16,11 +16,20 @@
     src: url('fonts/Chomsky.otf');
 }
 
-
-html {
+* {
     padding: 0;
     margin: 0;
+}
+
+html {
     font-size: 10px;
+}
+
+header {
+    display: flex;
+    background: linear-gradient(90deg,Red, white);
+    padding: 25px;
+    margin: 0;
 }
 
 body {
@@ -40,5 +49,17 @@ h1, h2, h3 {
     font-family: 'kingthings_calligraphica_2Rg';
 }
 
+#nombre {
+    font-size: 50px;
+    color: #fedc54;
+    padding: auto;
+    margin: auto auto auto 10px;
+}
 
+#coat-of-arms {
+    min-width: 100px;
+    min-height: 110px;
+    max-width: 200px;
+    max-height: 220px;   
+}
 
