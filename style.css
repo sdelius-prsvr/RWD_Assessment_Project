@@ -23,6 +23,10 @@
 
 html {
     font-size: 10px;
+    min-width: 500px;
+    max-width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 header {
@@ -50,16 +54,14 @@ h1, h2, h3 {
 }
 
 #nombre {
-    font-size: 50px;
+    font-size: 40px;
     color: #fedc54;
     padding: auto;
     margin: auto auto auto 10px;
 }
 
 #coat-of-arms {
-    min-width: 100px;
-    min-height: 110px;
-    max-width: 200px;
-    max-height: 220px;   
+    max-width: 100px;
+    max-height: 110px;
 }
 
