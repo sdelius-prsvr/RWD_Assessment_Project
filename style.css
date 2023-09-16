@@ -27,13 +27,15 @@ html {
     max-width: 1000px;
     justify-content: center;
     margin: 0 auto;
+    border: 5px groove #fedc54;
 }
 
 header {
     display: flex;
     background: linear-gradient(90deg,Red, white);
-    padding: 25px;
+    padding: 5px;
     margin: 0;
+    border-bottom: 5px groove #fedc54;
 }
 
 body {
@@ -45,6 +47,11 @@ h1, h2, h3 {
     font-family: 'chomsky';
 }
 
+main {
+    display: flex;
+    flex: auto;
+    }
+
 .chomsky {
     font-family: 'chomsky';
 }
@@ -53,11 +60,44 @@ h1, h2, h3 {
     font-family: 'kingthings_calligraphica_2Rg';
 }
 
+.content {
+    position: relative;
+    min-width: 338px;
+    max-width: 400px;
+    margin: 0 1rem;
+    padding: 1rem;
+
+}
+
+.academics {
+    position: relative;
+    min-width: fit-content;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.links {
+    position: relative;
+    width: auto;
+    margin: 0 1rem 0 auto;
+    padding: 1rem;
+}
+
+
+
+.testimony {
+    border: 3px groove #fedc54;
+    border-radius: 7px;
+    padding: .5rem;
+}
+
 #nombre {
     font-size: 40px;
     color: #fedc54;
     padding: auto;
     margin: auto auto auto 10px;
+    text-shadow: 4px 4px 5px #000;
 }
 
 #coat-of-arms {
