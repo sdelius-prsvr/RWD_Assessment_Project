@@ -28,13 +28,13 @@
 html {
     font-size: 10px;
     min-width: 500px;
-    max-width: 1vw;
+    max-width: 1920;
     justify-content: center;
     margin: 0 auto;
 }
 
 header {
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     background: linear-gradient(90deg,Red, white);
