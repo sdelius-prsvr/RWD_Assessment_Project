@@ -16,6 +16,10 @@
     src: url('fonts/Chomsky.otf');
 }
 
+.chomsky {
+    font-family: 'chomsky';
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -27,7 +31,6 @@ html {
     max-width: 1000px;
     justify-content: center;
     margin: 0 auto;
-    border: 5px groove #fedc54;
 }
 
 header {
@@ -37,70 +40,6 @@ header {
     padding: 5px;
     margin: 0;
     border-bottom: 5px groove #fedc54;
-}
-
-body {
-    font-size: 14px;
-    font-family: 'kingthings_calligraphica_2Rg';
-}
-
-h1 {
-    font-family: 'chomsky';
-}
-
-main {
-    display: flex;
-    flex: auto;
-    line-height: 1.5em;
-    }
-
-.content {
-    position: relative;
-    min-width: 338px;
-    max-width: 400px;
-    margin: 0 1rem;
-    padding: 1rem;
-
-}
-
-.academics {
-    position: relative;
-    min-width: fit-content;
-    max-width: auto;
-    margin: 0 auto;
-    padding: 1rem;
-}
-
-ul, ol {
-    padding: 0 0 1.5rem 1.5rem;
-}
-
-ul li {
-    list-style: none;
-}
-
-ol li {
-    list-style:decimal;
-}
-
-.links {
-    position: relative;
-    width: auto;
-    margin: 0 1rem 0 auto;
-    padding: 1rem;
-}
-
-.testimony {
-    display: grid;
-    border: 3px groove #fedc54;
-    border-radius: 7px;
-    padding: .5rem;
-    width: 295px;
-    margin: 0.5rem;
-}
-
-.attribution {
-    justify-self: end;
 }
 
 #nombre {
@@ -116,7 +55,166 @@ ol li {
     margin: auto auto auto 0px;
 }
 
+
+body {
+    font-size: 18px;
+    font-family: 'kingthings_calligraphica_2Rg';
+    letter-spacing: 0.25px;
+    word-spacing: .125em;
+}
+
+main {
+    display: flex;
+    flex: auto;
+    line-height: 1.25em;
+}
+
+h1 {
+    font-family: 'chomsky';
+    letter-spacing: 1.25px;
+}
+
+h2 {
+    letter-spacing: .125px;
+    word-spacing: .0125em;
+}
+
+h3 {
+    padding-top: 1rem;
+}
+
+a {
+    color: #640;
+    outline: none;
+}
+
+a:hover {
+    color: #fedc54;
+    text-decoration: none;
+}
+
+
+a[href*="http"] {
+    background: url(Assets/external-link-52.png) no-repeat 100%;
+    background-size: 10px 10px;
+    padding-right: 12px;
+}
+
+a:active {
+    font-family: 'chomsky';
+    font-size: 13.75px;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 0.75px;
+    text-shadow: 2px 2px 4px #982;
+}
+
+h3 a:active {
+    font-family: 'chomsky';
+    font-size: 17px;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 0.75px;
+    text-shadow: 3px 3px 6px #982;
+}
+
+.deleted {
+    text-decoration: line-through;
+}
+
+.content {
+    max-width: 50%;
+    min-width: fit-content;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
 #history p {
     padding: 1rem;
-    max-width: 345px;
+    max-width: 400px;
+    margin-bottom: 1rem;
+}
+
+#testimonials {
+    padding-bottom: 1rem;
+}
+
+#testimonials h2 {
+    padding-bottom: 1rem;
+}
+
+.testimony {
+    display: grid;
+    border: 3px groove #fedc54;
+    border-radius: 7px;
+    padding: .5rem;
+    width: 340px;
+    margin: 0.5rem;
+}
+
+.attribution {
+    justify-self: end;
+}
+
+#inquiry-video h2 {
+    padding-bottom: 1rem;
+}
+
+iframe {
+    padding: 1rem;
+}
+
+.academics {
+    width: 25%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.academics ul {
+    padding: .5rem;
+    line-height: 1.25em;
+}
+
+.academics h3 {
+    padding-top: 1rem;
+}
+
+.academics ul, ol {
+    padding: 1rem 0 1.5rem 1.5rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ol li {
+    list-style:decimal;
+}
+
+.links {
+    min-width: fit-content;
+    max-width: 25%;
+    margin: 0 1rem 0 auto;
+    padding-top: 1rem;
+}
+
+.links h3 {
+    padding-top: 2rem;
+}
+
+.links ul {
+    padding: 1rem 0 1.5rem 1.5rem;
+    line-height: 2em;
+}
+
+footer {
+    border-top: 5px groove #fedc54;
+    font-size: 15px;
+    margin: auto;
+    padding: 1rem;
+    word-spacing: .125em;
+}
+
+#copy {
+    font-weight: bold;
 }
