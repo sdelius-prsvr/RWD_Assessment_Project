@@ -34,7 +34,7 @@ html {
 }
 
 header {
-    width: 100%;
+    width: inherit;
     display: flex;
     justify-content: center;
     background: linear-gradient(90deg,Red, white);
@@ -67,6 +67,7 @@ body {
 main {
     display: flex;
     flex: auto;
+    flex-wrap: wrap;
     line-height: 1.25em;
 }
 
@@ -124,8 +125,7 @@ h3 a:active {
 }
 
 .content {
-    max-width: 50%;
-    min-width: fit-content;
+    width: 50%;
     margin: 0 1rem;
     padding: 1rem;
 }
@@ -149,7 +149,7 @@ h3 a:active {
     border: 3px groove #fedc54;
     border-radius: 7px;
     padding: .5rem;
-    width: 340px;
+    max-width: 340px;
     margin: 0.5rem;
 }
 
