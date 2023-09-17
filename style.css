@@ -32,6 +32,7 @@ html {
 
 header {
     display: flex;
+    justify-content: center;
     background: linear-gradient(90deg,Red, white);
     padding: 5px;
     margin: 0;
@@ -50,15 +51,8 @@ h1 {
 main {
     display: flex;
     flex: auto;
+    line-height: 1.5em;
     }
-
-.chomsky {
-    font-family: 'chomsky';
-}
-
-.kingthings {
-    font-family: 'kingthings_calligraphica_2Rg';
-}
 
 .content {
     position: relative;
@@ -77,6 +71,18 @@ main {
     padding: 1rem;
 }
 
+ul, ol {
+    padding: 0 0 1.5rem 1.5rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ol li {
+    list-style:decimal;
+}
+
 .links {
     position: relative;
     width: auto;
@@ -84,24 +90,33 @@ main {
     padding: 1rem;
 }
 
-
-
 .testimony {
+    display: grid;
     border: 3px groove #fedc54;
     border-radius: 7px;
     padding: .5rem;
+    width: 295px;
+    margin: 0.5rem;
+}
+
+.attribution {
+    justify-self: end;
 }
 
 #nombre {
     font-size: 40px;
     color: #fedc54;
-    padding: auto;
-    margin: auto auto auto 10px;
+    margin: auto 0px auto auto;
     text-shadow: 4px 4px 5px #000;
 }
 
 #coat-of-arms {
     max-width: 100px;
     max-height: 110px;
+    margin: auto auto auto 0px;
 }
 
+#history p {
+    padding: 1rem;
+    max-width: 345px;
+}
