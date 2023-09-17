@@ -28,7 +28,7 @@
 html {
     font-size: 10px;
     min-width: 500px;
-    max-width: 1000px;
+    max-width: 1vw;
     justify-content: center;
     margin: 0 auto;
 }
