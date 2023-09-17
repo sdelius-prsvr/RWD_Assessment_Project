@@ -125,7 +125,7 @@ h3 a:active {
 .content {
     width: 50%;
     margin: 0 1rem;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 #history p {
