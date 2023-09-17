@@ -67,7 +67,7 @@ body {
 main {
     display: flex;
     flex: auto;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     line-height: 1.25em;
 }
 
